@@ -11,13 +11,14 @@ export class ListaComponent {
   filteredList: any[]=[];
 
   isList: boolean = false;
+  selectedType: string = "name";
+  public searchTypes: any = [
+    {value: "name", viewValue: "Name"},
+    {value: "continent", viewValue: "Continent"},
+    {value: "size", viewValue: "Size"},
+  ]
 
   constructor(private servicio:ServiceService){}
-
-  filtrar(filtro:any){
-    const filtroMinusculas = filtro.toLowerCase()
-    this.filteredList = this.animalsList.filter((animal)=>animal.name.toLowerCase().includes(filtroMinusculas))
-  }
 
   ngOnInit(): void {
     this.servicio.getLista().subscribe((data:any)=>{
@@ -25,6 +26,17 @@ export class ListaComponent {
       this.filteredList=[...data]
       
     })
+  }
+
+  filtrar(filtro: any) {
+    console.log("this.selectedType ------", this.selectedType);
+    console.log("this.animalsList ------", this.animalsList);
+    console.log("filtro value ------", filtro);
+    
+    this.filteredList = this.animalsList.filter((animal) => {
+        console.log(animal);
+        return animal[this.selectedType]?.toLowerCase().includes(filtro.toLowerCase())
+      })
   }
 
   onClickList() {

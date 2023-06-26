@@ -1,19 +1,32 @@
 <div class="lista_componente">
-    <div class="buscador">
-        <h3>Busca tu animal</h3>
-        <input type='text' #filtro (input)="filtrar(filtro.value)" placeholder="Buscador">
-    </div>
-
     <div class="b-flex">
-        <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="grid icon" fontIcon="grid_on"></mat-icon>
-        <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="list icon" fontIcon="list"></mat-icon>
+        <div class="buscador">
+            <h3>Busca tu animal</h3>
+            <input type='text' #filtro (input)="filtrar(filtro.value)" placeholder="Buscador">
+        </div>
 
+        <mat-form-field>
+            <mat-label>Search by</mat-label>
+            <mat-select [(value)]="selectedType" >
+            <mat-option *ngFor="let type of searchTypes" [value]="type.value">
+                {{type.viewValue}}
+            </mat-option>
+            </mat-select>
+        </mat-form-field>
+
+        <div class="b-flex">
+            <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="grid icon" fontIcon="grid_on"></mat-icon>
+            <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="list icon" fontIcon="list"></mat-icon>
+
+        </div>        
     </div>
+
 
     <ul [ngClass]="{'b-list': isList}" >
         <li [ngClass]="{'b-list__li': isList}" *ngFor="let animal of filteredList">
             <img [ngClass]="{'b-list__img': isList}" routerLink="/lista/{{animal.id}}" src='{{animal.image}}' alt='{{animal.name}}'>
-            <h4>{{animal.name }}</h4>
+            <h3>{{animal.name }}</h3>
+            <h4>{{animal.continent }}</h4>
             <button routerLink="/lista/{{animal.id}}" >Ver mas...</button>
 
         </li>

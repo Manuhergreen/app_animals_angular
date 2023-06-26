@@ -12,6 +12,9 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListaComponent } from './pages/lista/lista.component';
 import { GestionComponent } from './pages/gestion/gestion.component';
 import { CartaComponent } from './pages/lista/carta/carta.component';
+import { LoginComponent } from './pages/login/login.component';
+import { PrivateComponent } from './pages/private/private.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 
 @NgModule({
@@ -22,7 +25,10 @@ import { CartaComponent } from './pages/lista/carta/carta.component';
     HomeComponent,
     ListaComponent,
     GestionComponent,
-    CartaComponent
+    CartaComponent,
+    LoginComponent,
+    PrivateComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,

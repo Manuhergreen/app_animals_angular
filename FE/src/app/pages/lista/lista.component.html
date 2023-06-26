@@ -6,9 +6,9 @@
 
     <ul class="cards">
         <li *ngFor="let animal of filteredList">
-            <img routerLink="/lista/{{animal.id}}" src='{{animal.image}}' alt='{{animal.name}}'>
+            <img  src='{{animal.image}}' alt='{{animal.name}}'>
             <h4>{{animal.name }}</h4>
-            <button routerLink="/lista/{{animal.id}}">Ver mas...</button>
+            <button >Ver mas...</button>
 
         </li>
     </ul>

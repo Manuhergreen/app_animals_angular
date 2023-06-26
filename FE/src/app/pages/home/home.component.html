@@ -13,72 +13,8 @@
     <div class="contenedor-titulo-controles">
       <h3>Comedia</h3>
     </div>
-    <div class="contenedor-principal">
-      <div class="contenedor-carousel">
-        <div class="carousel" *ngFor="let movie of movieList">
-          <div class="pelicula" *ngIf="movie?.genres?.includes('Comedy')">
-            <a routerLink="/lista/{{movie.id}}"><img src="{{ movie.thumbnail }}" alt="{{ movie.title }}"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="peliculas-recomendadas contenedor">
-    <div class="contenedor-titulo-controles">
-      <h3>Drama</h3>
-    </div>
-    <div class="contenedor-principal">
-      <div class="contenedor-carousel">
-        <div class="carousel" *ngFor="let movie of movieList">
-          <div class="pelicula" *ngIf="movie?.genres?.includes('Drama')">
-            <a routerLink="/lista/{{movie.id}}"><img src="{{ movie.thumbnail }}" alt="{{ movie.title }}"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="peliculas-recomendadas contenedor">
-    <div class="contenedor-titulo-controles">
-      <h3>Misterio</h3>
-    </div>
-    <div class="contenedor-principal">
-      <div class="contenedor-carousel">
-        <div class="carousel" *ngFor="let movie of movieList">
-          <div class="pelicula" *ngIf="movie?.genres?.includes('Mystery','Thriller')">
-            <a routerLink="/lista/{{movie.id}}"><img src="{{ movie.thumbnail }}" alt="{{ movie.title }}"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="peliculas-recomendadas contenedor">
-    <div class="contenedor-titulo-controles">
-      <h3>Fantasia</h3>
-    </div>
-    <div class="contenedor-principal">
-      <div class="contenedor-carousel">
-        <div class="carousel" *ngFor="let movie of movieList">
-          <div class="pelicula" *ngIf="movie?.genres?.includes('Fantasy')">
-            <a routerLink="/lista/{{movie.id}}"><img src="{{ movie.thumbnail }}" alt="{{ movie.title }}"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="peliculas-recomendadas contenedor">
-    <div class="contenedor-titulo-controles">
-      <h3>Superhéroes</h3>
-    </div>
-    <div class="contenedor-principal">
-      <div class="contenedor-carousel">
-        <div class="carousel" *ngFor="let movie of movieList">
-          <div class="pelicula" *ngIf="movie?.genres?.includes('Superhero')">
-            <a routerLink="/lista/{{movie.id}}"><img src="{{ movie.thumbnail }}" alt="{{ movie.title }}"></a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+ 
+ 
 </div>
 
 <!---------->

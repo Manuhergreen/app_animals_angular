@@ -8,8 +8,8 @@ import { ServiceService } from 'src/app/services/service.service';
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent {
-  movieList: any[]=[];
-  dramaList: any[]=[];
+  animalList: any[]=[];
+  // dramaList: any[]=[];
  
 
   constructor(private servicio: ServiceService){}
@@ -17,13 +17,13 @@ export class HomeComponent {
     this.servicio.getLista().subscribe((data:any)=>{
       console.log(data[0].genres);
       
-      this.movieList=[...data]
+      this.animalList=[...data]
       // this.dramaList=data.filter((movie: any)=> movie?.genres?.includes('Drama'))
       // console.log(this.dramaList);
       
-      // for (const movie of data) {
-      //   console.log(movie.genres)
-      // }
+      for (const movie of data) {
+        console.log(movie.genres)
+      }
     })
     //codigo nuevo
 

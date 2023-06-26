@@ -1,24 +1,24 @@
 
 <div class="gestion">
   <div>
-    <h2>Agrega una pelicula</h2>
+    <h2>Agrega un animal</h2>
   </div>
   <div class="form-container">
-    <form [formGroup]="moviesForm" (ngSubmit)="onSubmit()">
-      <input formControlName="thumbnail" placeholder="Image URL"> 
-      <input formControlName="title" placeholder="Title">
-      <input formControlName="year" placeholder="Year">  
+    <form [formGroup]="animalForm" (ngSubmit)="onSubmit()">
+      <input formControlName="image" placeholder="Image URL"> 
+      <input formControlName="name" placeholder="name">
+      <input formControlName="species" placeholder="species">  
      
       
 
 
-      <button type="submit" [disabled]="!moviesForm.valid">Submit</button>
+      <button type="submit" [disabled]="!animalForm.valid">Submit</button>
     </form>
   </div>
 
-  <figure class="movie-figure">
+  <figure class="animal-figure">
     <img src="{{newAnimal.image}}" alt="{{newAnimal.name}}"> 
-    <figcaption>{{newAnimal.continent}}</figcaption>
+   
     <figcaption>{{newAnimal.species}}</figcaption>
   </figure>
   <!-- <div class="buttons_gestion">

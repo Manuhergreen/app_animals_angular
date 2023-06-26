@@ -8,3 +8,10 @@ export interface AnimalI {
     food: string[],  
     habitat: string[],  
 }
+
+export interface UserI{
+    id?: string;
+    email: string;
+    password: string;
+    role?: string;
+}

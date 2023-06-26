@@ -8,7 +8,7 @@ import { ServiceService } from 'src/app/services/service.service';
   styleUrls: ['./gestion.component.scss']
 })
 export class GestionComponent {
-  moviesForm!:FormGroup;
+  animalForm!:FormGroup;
 
   constructor(private formBuilder: FormBuilder, private servicio: ServiceService, private router:Router ){}
 
@@ -16,7 +16,7 @@ export class GestionComponent {
   public animalId = this.servicio.animalData.id;
 
   ngOnInit():void{
-    this.moviesForm = this.formBuilder.group({
+    this.animalForm = this.formBuilder.group({
       name:[this.newAnimal.name,[Validators.required]
       ],
       species:[this.newAnimal.species,[Validators.required]
@@ -26,7 +26,7 @@ export class GestionComponent {
 
     });
 
-    this.moviesForm.valueChanges.subscribe((changes)=>{
+    this.animalForm.valueChanges.subscribe((changes)=>{
       this.newAnimal= changes;
     })
   }
@@ -36,21 +36,21 @@ export class GestionComponent {
       this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
         console.log(data);
         
-      alert("Pelicula editada");
+      alert("Animal editado");
       this.router.navigate(["lista"]);
 
       })
       
     } else{
       this.servicio.postAnimal(this.newAnimal).subscribe();
-      alert ("Pelicula creada")
+      alert ("Animal creado")
       this.router.navigate(["lista"])
 
     }
 
 
     
-    this.moviesForm.reset()
+    this.animalForm.reset()
 
   }
 

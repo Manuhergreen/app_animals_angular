@@ -258,6 +258,29 @@
       "email": "lola@lola.com",
       "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
       "id": 1
+    },
+    {
+      "id": 2
+    },
+    {
+      "email": "hola@hola.com",
+      "password": "Hola12345!",
+      "id": 3
+    },
+    {
+      "email": "hola2@hola.com",
+      "password": "$2a$10$v3wXQxtTej5UFXJiLQXQOulpIzZ1uZEdVnZv89iNQQE9Z4dItupoS",
+      "id": 4
+    },
+    {
+      "email": "natalia@gmail.com",
+      "password": "$2a$10$OASy5bznDsdyleTxn81yI.6JaOhqnti1AjCoGANp.YOmDyIHxXWS.",
+      "id": 5
+    },
+    {
+      "email": "manu@manu.es",
+      "password": "$2a$10$WSUs16cwtM/bb0MW5Ja8z.iJbyn7epEby6OIfNqO8/YoQixlVj746",
+      "id": 6
     }
   ]
 }

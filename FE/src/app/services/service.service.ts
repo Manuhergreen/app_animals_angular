@@ -1,24 +1,36 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { AnimalI } from "../model/animal.model";
+import { AnimalI, UserI } from "../model/animal.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServiceService {
-  db_url: string= "http://localhost:3000/animals";
+  db_url: string= "http://localhost:3000";
   animalData!: AnimalI;
 
   constructor(private http:HttpClient) {}
+
+  register(user:UserI){
+    return this.http.post(`${this.db_url}/register`, user)
+  }
+  login(user:UserI){
+    return this.http.post(`${this.db_url}/login`, user)
+  }
+
+  getToken(){
+    return localStorage.getItem('token');
+  }
+
   getLista(){
-    return this.http.get(this.db_url)
+    return this.http.get(`${this.db_url}/animals`)
   }
   getAnimal(id:number){
-    return this.http.get(`${this.db_url}/${id}`)
+    return this.http.get(`${this.db_url}/animals/${id}`)
   }
 
   deleteAnimal(id:number){
-    return this.http.delete(`${this.db_url}/${id}`)
+    return this.http.delete(`${this.db_url}/animals/${id}`)
   }
 
   postAnimal(animal: AnimalI){
@@ -30,6 +42,6 @@ export class ServiceService {
   }
 
   putAnimal(animalId:any,editedAnimal: AnimalI){
-    return this.http.put(`${this.db_url}/${animalId}`, editedAnimal)
+    return this.http.put(`${this.db_url}/animals/${animalId}`, editedAnimal)
   }
 }

@@ -1,9 +1,11 @@
 <nav>
     <img routerLink="/"  src='https://robertopatxot.files.wordpress.com/2017/11/ghostbusters_logo-svg.png?w=322&h=275' alt='logo'>
     <a routerLink="/">Home</a>
-    <a routerLink="/lista">Listado de animales</a>
-    <a routerLink="/gestion">Agrega un animal</a>
-    <a routerLink="/registro">Regístrate</a>
-    <a routerLink="/login">Login</a>
+    <a *ngIf="authApi.getToken()" routerLink="/lista">Listado de animales</a>
+    <a *ngIf="authApi.getToken()" routerLink="/gestion">Agrega un animal</a>
+    <a *ngIf="!authApi.getToken()" routerLink="/registro">Regístrate</a>
+    <a *ngIf="!authApi.getToken()" routerLink="/login">Login</a>
+    <button  *ngIf="authApi.getToken()" (click)="logout()">Logout</button>
+
 
 </nav>

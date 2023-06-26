@@ -27,7 +27,7 @@ export class LoginComponent {
       let user: UserI = this.loginForm.value;
       this.authApi.login(user).subscribe((data:any)=>{
         console.log(data)
-        localStorage.setItem('token', data.token);
+        localStorage.setItem('token', data.accessToken);
         localStorage.setItem('user',JSON.stringify(data.user))
         this.router.navigate(['/']);
       })

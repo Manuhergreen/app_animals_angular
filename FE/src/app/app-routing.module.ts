@@ -6,12 +6,13 @@ import { GestionComponent } from './pages/gestion/gestion.component';
 import { CartaComponent } from './pages/lista/carta/carta.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { LoginComponent } from './pages/login/login.component';
+import { AuthGuard } from './core/guards/auth.guard';
 
 const routes: Routes = [
   {path: "",component:HomeComponent },
-  {path: "lista", component:ListaComponent},
-  {path: "gestion", component:GestionComponent},
-  {path: "lista/:id", component: CartaComponent},
+  {path: "lista", component:ListaComponent, canActivate: [AuthGuard]},
+  {path: "gestion", component:GestionComponent, canActivate: [AuthGuard]},
+  {path: "lista/:id", component: CartaComponent, canActivate: [AuthGuard]},
   {path: "registro", component: RegisterComponent},
   {path: "login", component:LoginComponent}
 ];

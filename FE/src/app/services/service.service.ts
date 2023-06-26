@@ -18,6 +18,11 @@ export class ServiceService {
     return this.http.post(`${this.db_url}/login`, user)
   }
 
+  logOut(){
+    localStorage.removeItem('token');
+    localStorage.removeItem('user');
+  }
+
   getToken(){
     return localStorage.getItem('token');
   }

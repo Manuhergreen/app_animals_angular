@@ -4,9 +4,15 @@
         <input type='text' #filtro (input)="filtrar(filtro.value)" placeholder="Buscador">
     </div>
 
-    <ul class="cards">
-        <li *ngFor="let animal of filteredList">
-            <img routerLink="/lista/{{animal.id}}" src='{{animal.image}}' alt='{{animal.name}}'>
+    <div class="b-flex">
+        <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="grid icon" fontIcon="grid_on"></mat-icon>
+        <mat-icon class="b-iconListMode" (click)="onClickList()" aria-hidden="false" aria-label="list icon" fontIcon="list"></mat-icon>
+
+    </div>
+
+    <ul [ngClass]="{'b-list': isList}" >
+        <li [ngClass]="{'b-list__li': isList}" *ngFor="let animal of filteredList">
+            <img [ngClass]="{'b-list__img': isList}" routerLink="/lista/{{animal.id}}" src='{{animal.image}}' alt='{{animal.name}}'>
             <h4>{{animal.name }}</h4>
             <button routerLink="/lista/{{animal.id}}" >Ver mas...</button>
 

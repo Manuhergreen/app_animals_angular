@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { SlickCarouselModule } from 'ngx-slick-carousel';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -15,6 +14,8 @@ import { CartaComponent } from './pages/lista/carta/carta.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivateComponent } from './pages/private/private.component';
 import { RegisterComponent } from './pages/register/register.component';
+
+import {MatIconModule} from '@angular/material/icon';
 
 
 @NgModule({
@@ -36,7 +37,7 @@ import { RegisterComponent } from './pages/register/register.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    SlickCarouselModule
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent]

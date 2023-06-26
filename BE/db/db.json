@@ -230,14 +230,6 @@
       "id": 1
     },
     {
-      "id": 2
-    },
-    {
-      "email": "hola@hola.com",
-      "password": "Hola12345!",
-      "id": 3
-    },
-    {
       "email": "hola2@hola.com",
       "password": "$2a$10$v3wXQxtTej5UFXJiLQXQOulpIzZ1uZEdVnZv89iNQQE9Z4dItupoS",
       "id": 4
@@ -251,6 +243,11 @@
       "email": "manu@manu.es",
       "password": "$2a$10$WSUs16cwtM/bb0MW5Ja8z.iJbyn7epEby6OIfNqO8/YoQixlVj746",
       "id": 6
+    },
+    {
+      "email": "car@car.com",
+      "password": "$2a$10$uzpbmWmLm3cq9pAgsld.seKVjtoTJGSfEpnBwIwHAiL.eAJiMGrcC",
+      "id": 7
     }
   ]
 }

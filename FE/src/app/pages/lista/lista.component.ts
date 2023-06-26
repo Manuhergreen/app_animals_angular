@@ -9,7 +9,11 @@ import { ServiceService } from 'src/app/services/service.service';
 export class ListaComponent {
   animalsList: any[]=[];
   filteredList: any[]=[];
+
+  isList: boolean = false;
+
   constructor(private servicio:ServiceService){}
+
   filtrar(filtro:any){
     const filtroMinusculas = filtro.toLowerCase()
     this.filteredList = this.animalsList.filter((animal)=>animal.name.toLowerCase().includes(filtroMinusculas))
@@ -21,6 +25,11 @@ export class ListaComponent {
       this.filteredList=[...data]
       
     })
+  }
+
+  onClickList() {
+    this.isList = !this.isList;
+    console.log(this.isList);
   }
 
 }

@@ -55,40 +55,10 @@
       ]
     },
     {
-      "id": 4,
       "name": "Polar Bear",
       "species": "Ursus maritimus",
-      "continent": "Arctic",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
-      "size": "Large",
-      "food": [
-        "Seals",
-        "Fish",
-        "Walruses"
-      ],
-      "habitat": [
-        "Arctic Region",
-        "Sea Ice",
-        "Coastal Areas"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Kangaroo",
-      "species": "Macropus",
-      "continent": "Australia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
-      "size": "Medium",
-      "food": [
-        "Grass",
-        "Plants",
-        "Fruits"
-      ],
-      "habitat": [
-        "Grasslands",
-        "Forests",
-        "Deserts"
-      ]
+      "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
+      "id": 4
     },
     {
       "id": 6,

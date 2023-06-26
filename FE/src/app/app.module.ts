@@ -17,6 +17,8 @@ import { PrivateComponent } from './pages/private/private.component';
 import { RegisterComponent } from './pages/register/register.component';
 
 
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -36,7 +38,7 @@ import { RegisterComponent } from './pages/register/register.component';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    SlickCarouselModule
+    SlickCarouselModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

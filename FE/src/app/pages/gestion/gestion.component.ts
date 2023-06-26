@@ -32,7 +32,7 @@ export class GestionComponent {
   }
 
   onSubmit(){
-    if (this.animalId!) {
+    if (window.confirm('¿Estás seguro de que quieres modificar este animal?')) {
       this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
         console.log(data);
         

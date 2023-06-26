@@ -19,40 +19,16 @@
       ]
     },
     {
-      "id": 2,
       "name": "Tiger",
       "species": "Panthera tigris",
-      "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
-      "size": "Large",
-      "food": [
-        "Meat",
-        "Deer",
-        "Wild pigs"
-      ],
-      "habitat": [
-        "Forests",
-        "Grasslands",
-        "Swamps"
-      ]
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Giraffe",
+      "name": "Girafa",
       "species": "Giraffa camelopardalis",
-      "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
-      "size": "Tall",
-      "food": [
-        "Leaves",
-        "Vegetation",
-        "Bark"
-      ],
-      "habitat": [
-        "Grasslands",
-        "Savannah",
-        "Woodlands"
-      ]
+      "id": 3
     },
     {
       "name": "Polar Bear",

@@ -7,8 +7,16 @@
       "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg",
       "size": "Large",
-      "food": ["Meat", "Gazelles", "Buffaloes"],
-      "habitat": ["Grasslands", "Savannah", "Woodlands"]
+      "food": [
+        "Meat",
+        "Gazelles",
+        "Buffaloes"
+      ],
+      "habitat": [
+        "Grasslands",
+        "Savannah",
+        "Woodlands"
+      ]
     },
     {
       "id": 2,
@@ -17,8 +25,16 @@
       "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
       "size": "Large",
-      "food": ["Meat", "Deer", "Wild pigs"],
-      "habitat": ["Forests", "Grasslands", "Swamps"]
+      "food": [
+        "Meat",
+        "Deer",
+        "Wild pigs"
+      ],
+      "habitat": [
+        "Forests",
+        "Grasslands",
+        "Swamps"
+      ]
     },
     {
       "id": 3,
@@ -27,8 +43,16 @@
       "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
       "size": "Tall",
-      "food": ["Leaves", "Vegetation", "Bark"],
-      "habitat": ["Grasslands", "Savannah", "Woodlands"]
+      "food": [
+        "Leaves",
+        "Vegetation",
+        "Bark"
+      ],
+      "habitat": [
+        "Grasslands",
+        "Savannah",
+        "Woodlands"
+      ]
     },
     {
       "id": 4,
@@ -37,8 +61,16 @@
       "continent": "Arctic",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
       "size": "Large",
-      "food": ["Seals", "Fish", "Walruses"],
-      "habitat": ["Arctic Region", "Sea Ice", "Coastal Areas"]
+      "food": [
+        "Seals",
+        "Fish",
+        "Walruses"
+      ],
+      "habitat": [
+        "Arctic Region",
+        "Sea Ice",
+        "Coastal Areas"
+      ]
     },
     {
       "id": 5,
@@ -47,8 +79,16 @@
       "continent": "Australia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
       "size": "Medium",
-      "food": ["Grass", "Plants", "Fruits"],
-      "habitat": ["Grasslands", "Forests", "Deserts"]
+      "food": [
+        "Grass",
+        "Plants",
+        "Fruits"
+      ],
+      "habitat": [
+        "Grasslands",
+        "Forests",
+        "Deserts"
+      ]
     },
     {
       "id": 6,
@@ -57,8 +97,17 @@
       "continent": "Africa",
       "image": "https://www.nationalgeographic.com.es/medio/2020/03/04/elefante-en-el-parque-nacional-de-amboseli-con-el-kilimanjaro-al-fondo_4308fa58_800x800.jpg",
       "size": "Large",
-      "food": ["Grass", "Leaves", "Bark", "Fruits"],
-      "habitat": ["Forests", "Savannah", "Swamps"]
+      "food": [
+        "Grass",
+        "Leaves",
+        "Bark",
+        "Fruits"
+      ],
+      "habitat": [
+        "Forests",
+        "Savannah",
+        "Swamps"
+      ]
     },
     {
       "id": 7,
@@ -67,8 +116,16 @@
       "continent": "Antarctica",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/250px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
       "size": "Small",
-      "food": ["Fish", "Squid", "Krill"],
-      "habitat": ["Antarctic Region", "Coastal Areas", "Icebergs"]
+      "food": [
+        "Fish",
+        "Squid",
+        "Krill"
+      ],
+      "habitat": [
+        "Antarctic Region",
+        "Coastal Areas",
+        "Icebergs"
+      ]
     },
     {
       "id": 8,
@@ -77,8 +134,16 @@
       "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gorilla.jpg/1200px-Gorilla.jpg",
       "size": "Large",
-      "food": ["Leaves", "Fruits", "Insects"],
-      "habitat": ["Forests", "Mountains", "Swamps"]
+      "food": [
+        "Leaves",
+        "Fruits",
+        "Insects"
+      ],
+      "habitat": [
+        "Forests",
+        "Mountains",
+        "Swamps"
+      ]
     },
     {
       "id": 9,
@@ -87,8 +152,16 @@
       "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TheCheethcat.jpg/800px-TheCheethcat.jpg",
       "size": "Medium",
-      "food": ["Antelopes", "Gazelles", "Hares"],
-      "habitat": ["Grasslands", "Savannah", "Deserts"]
+      "food": [
+        "Antelopes",
+        "Gazelles",
+        "Hares"
+      ],
+      "habitat": [
+        "Grasslands",
+        "Savannah",
+        "Deserts"
+      ]
     },
     {
       "id": 10,
@@ -97,8 +170,16 @@
       "continent": "Australia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/250px-Koala_climbing_tree.jpg",
       "size": "Small",
-      "food": ["Eucalyptus leaves", "Bark", "Gum"],
-      "habitat": ["Eucalyptus Forests", "Coastal Areas", "Woodlands"]
+      "food": [
+        "Eucalyptus leaves",
+        "Bark",
+        "Gum"
+      ],
+      "habitat": [
+        "Eucalyptus Forests",
+        "Coastal Areas",
+        "Woodlands"
+      ]
     },
     {
       "id": 11,
@@ -107,8 +188,16 @@
       "continent": "South America",
       "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Jaguar_%28Panthera_onca_palustris%29_male_Three_Brothers_River_2_%28cropped%29.jpg",
       "size": "Large",
-      "food": ["Deer", "Tapirs", "Capybaras"],
-      "habitat": ["Rainforests", "Grasslands", "Swamps"]
+      "food": [
+        "Deer",
+        "Tapirs",
+        "Capybaras"
+      ],
+      "habitat": [
+        "Rainforests",
+        "Grasslands",
+        "Swamps"
+      ]
     },
     {
       "id": 12,
@@ -117,8 +206,15 @@
       "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
       "size": "Medium",
-      "food": ["Bamboo", "Fruits"],
-      "habitat": ["Bamboo Forests", "Mountains", "Woodlands"]
+      "food": [
+        "Bamboo",
+        "Fruits"
+      ],
+      "habitat": [
+        "Bamboo Forests",
+        "Mountains",
+        "Woodlands"
+      ]
     },
     {
       "id": 13,
@@ -127,8 +223,16 @@
       "continent": "South America",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ramphastos_toco_Whipsnade_Zoo.jpg/250px-Ramphastos_toco_Whipsnade_Zoo.jpg",
       "size": "Small",
-      "food": ["Fruits", "Insects", "Lizards"],
-      "habitat": ["Rainforests", "Swamps", "Woodlands"]
+      "food": [
+        "Fruits",
+        "Insects",
+        "Lizards"
+      ],
+      "habitat": [
+        "Rainforests",
+        "Swamps",
+        "Woodlands"
+      ]
     },
     {
       "id": 14,
@@ -137,8 +241,23 @@
       "continent": "South America",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Choloepus_hoffmanni_%28Puerto_Viejo%2C_CR%29_crop.jpg/800px-Choloepus_hoffmanni_%28Puerto_Viejo%2C_CR%29_crop.jpg",
       "size": "Medium",
-      "food": ["Leaves", "Buds", "Twigs"],
-      "habitat": ["Rainforests", "Trees", "Vine-Covered Areas"]
+      "food": [
+        "Leaves",
+        "Buds",
+        "Twigs"
+      ],
+      "habitat": [
+        "Rainforests",
+        "Trees",
+        "Vine-Covered Areas"
+      ]
+    }
+  ],
+  "users": [
+    {
+      "email": "lola@lola.com",
+      "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
+      "id": 2
     }
   ]
 }

@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="imagen_card">
+        <img src="{{peli?.thumbnail}}" alt="{{peli?.title}}">
+    </div>
+    <div class="text_card">
+        <h4>{{peli?.title}}, {{peli?.year}}</h4>
+        <h5>{{peli?.genres}}</h5>
+        <p><b>Synopsis: </b><br>{{peli?.extract}}</p>
+       
+        <h5>Cast: <br>{{peli?.cast}}</h5>
+        <div class="buttons_card">
+            <button (click)="deletePeli()">Eliminar</button>
+            <button (click)="editItem(peli)">Editar</button>
+            <button routerLink="/lista">Atrás</button>
+        </div>
+    </div>  
+</div>
+  
+  

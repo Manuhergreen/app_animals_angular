@@ -1,0 +1,34 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    padding-left: 50px;
+    padding-top: 25px;
+    text-align: center;
+    
+    
+    
+}
+
+nav img{
+    width: 90px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 20px;
+    align-items: center;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
+nav a:hover{
+    color: red;
+}
+
+

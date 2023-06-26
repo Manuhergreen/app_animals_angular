@@ -1,0 +1,31 @@
+
+<div class="gestion">
+  <div>
+    <h2>Agrega una pelicula</h2>
+  </div>
+  <div class="form-container">
+    <form [formGroup]="moviesForm" (ngSubmit)="onSubmit()">
+      <input formControlName="thumbnail" placeholder="Image URL"> 
+      <input formControlName="title" placeholder="Title">
+      <input formControlName="year" placeholder="Year">  
+     
+      
+
+
+      <button type="submit" [disabled]="!moviesForm.valid">Submit</button>
+    </form>
+  </div>
+
+  <figure class="movie-figure">
+    <img src="{{newpeli.thumbnail}}" alt="{{newpeli.title}}"> 
+    <figcaption>{{newpeli.title}}</figcaption>
+    <figcaption>{{newpeli.year}}</figcaption>
+  </figure>
+  <!-- <div class="buttons_gestion">
+    <button routerLink="/">Ir a home</button>
+    <button routerLink="/lista">Ir a lista</button>
+  
+  </div> -->
+</div>
+
+

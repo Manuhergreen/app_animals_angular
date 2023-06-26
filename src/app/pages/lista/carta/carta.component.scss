@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen_card {
+  margin: 40px;
+}
+
+.text_card {
+  flex: 1;
+  margin: 40px; 
+}
+
+
+.imagen_card img{
+  width: 150px;
+  border-radius: 15px;
+}
+
+.buttons_card {
+display: flex;
+justify-content: 40px;
+text-align: center;
+margin: 50px;
+gap: 10px;
+}
+
+.buttons_card button{
+background-color: red;
+color: white;
+border-radius: 5px;
+text-decoration: none;
+border: 1px solid red;
+cursor: pointer;
+}
+
+

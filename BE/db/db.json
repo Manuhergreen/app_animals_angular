@@ -5,7 +5,7 @@
       "name": "Lion",
       "species": "Panthera leo",
       "continent": "Africa",
-      "image": "lion.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Lion_waiting_in_Namibia.jpg/1200px-Lion_waiting_in_Namibia.jpg",
       "size": "Large",
       "food": ["Meat", "Gazelles", "Buffaloes"],
       "habitat": ["Grasslands", "Savannah", "Woodlands"]
@@ -15,7 +15,7 @@
       "name": "Tiger",
       "species": "Panthera tigris",
       "continent": "Asia",
-      "image": "tiger.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
       "size": "Large",
       "food": ["Meat", "Deer", "Wild pigs"],
       "habitat": ["Forests", "Grasslands", "Swamps"]
@@ -25,7 +25,7 @@
       "name": "Giraffe",
       "species": "Giraffa camelopardalis",
       "continent": "Africa",
-      "image": "giraffe.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
       "size": "Tall",
       "food": ["Leaves", "Vegetation", "Bark"],
       "habitat": ["Grasslands", "Savannah", "Woodlands"]
@@ -35,7 +35,7 @@
       "name": "Polar Bear",
       "species": "Ursus maritimus",
       "continent": "Arctic",
-      "image": "polar_bear.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
       "size": "Large",
       "food": ["Seals", "Fish", "Walruses"],
       "habitat": ["Arctic Region", "Sea Ice", "Coastal Areas"]
@@ -45,7 +45,7 @@
       "name": "Kangaroo",
       "species": "Macropus",
       "continent": "Australia",
-      "image": "kangaroo.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
       "size": "Medium",
       "food": ["Grass", "Plants", "Fruits"],
       "habitat": ["Grasslands", "Forests", "Deserts"]
@@ -55,7 +55,7 @@
       "name": "Elephant",
       "species": "Loxodonta",
       "continent": "Africa",
-      "image": "elephant.jpg",
+      "image": "https://www.nationalgeographic.com.es/medio/2020/03/04/elefante-en-el-parque-nacional-de-amboseli-con-el-kilimanjaro-al-fondo_4308fa58_800x800.jpg",
       "size": "Large",
       "food": ["Grass", "Leaves", "Bark", "Fruits"],
       "habitat": ["Forests", "Savannah", "Swamps"]
@@ -65,7 +65,7 @@
       "name": "Penguin",
       "species": "Spheniscidae",
       "continent": "Antarctica",
-      "image": "penguin.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg/250px-Aptenodytes_forsteri_-Snow_Hill_Island%2C_Antarctica_-adults_and_juvenile-8.jpg",
       "size": "Small",
       "food": ["Fish", "Squid", "Krill"],
       "habitat": ["Antarctic Region", "Coastal Areas", "Icebergs"]
@@ -75,7 +75,7 @@
       "name": "Gorilla",
       "species": "Gorilla beringei",
       "continent": "Africa",
-      "image": "gorilla.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Gorilla.jpg/1200px-Gorilla.jpg",
       "size": "Large",
       "food": ["Leaves", "Fruits", "Insects"],
       "habitat": ["Forests", "Mountains", "Swamps"]
@@ -85,7 +85,7 @@
       "name": "Cheetah",
       "species": "Acinonyx jubatus",
       "continent": "Africa",
-      "image": "cheetah.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/TheCheethcat.jpg/800px-TheCheethcat.jpg",
       "size": "Medium",
       "food": ["Antelopes", "Gazelles", "Hares"],
       "habitat": ["Grasslands", "Savannah", "Deserts"]
@@ -95,7 +95,7 @@
       "name": "Koala",
       "species": "Phascolarctos cinereus",
       "continent": "Australia",
-      "image": "koala.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Koala_climbing_tree.jpg/250px-Koala_climbing_tree.jpg",
       "size": "Small",
       "food": ["Eucalyptus leaves", "Bark", "Gum"],
       "habitat": ["Eucalyptus Forests", "Coastal Areas", "Woodlands"]
@@ -105,7 +105,7 @@
       "name": "Jaguar",
       "species": "Panthera onca",
       "continent": "South America",
-      "image": "jaguar.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/11/Jaguar_%28Panthera_onca_palustris%29_male_Three_Brothers_River_2_%28cropped%29.jpg",
       "size": "Large",
       "food": ["Deer", "Tapirs", "Capybaras"],
       "habitat": ["Rainforests", "Grasslands", "Swamps"]
@@ -115,7 +115,7 @@
       "name": "Panda",
       "species": "Ailuropoda melanoleuca",
       "continent": "Asia",
-      "image": "panda.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
       "size": "Medium",
       "food": ["Bamboo", "Fruits"],
       "habitat": ["Bamboo Forests", "Mountains", "Woodlands"]
@@ -125,7 +125,7 @@
       "name": "Toucan",
       "species": "Ramphastidae",
       "continent": "South America",
-      "image": "toucan.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Ramphastos_toco_Whipsnade_Zoo.jpg/250px-Ramphastos_toco_Whipsnade_Zoo.jpg",
       "size": "Small",
       "food": ["Fruits", "Insects", "Lizards"],
       "habitat": ["Rainforests", "Swamps", "Woodlands"]
@@ -135,7 +135,7 @@
       "name": "Sloth",
       "species": "Bradypus",
       "continent": "South America",
-      "image": "sloth.jpg",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Choloepus_hoffmanni_%28Puerto_Viejo%2C_CR%29_crop.jpg/800px-Choloepus_hoffmanni_%28Puerto_Viejo%2C_CR%29_crop.jpg",
       "size": "Medium",
       "food": ["Leaves", "Buds", "Twigs"],
       "habitat": ["Rainforests", "Trees", "Vine-Covered Areas"]

@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { ServiceService } from 'src/app/services/service.service';
+import { AnimalI } from "../../../model/animal.model";
 
 @Component({
   selector: 'app-carta',
@@ -8,8 +9,8 @@ import { ServiceService } from 'src/app/services/service.service';
   styleUrls: ['./carta.component.scss']
 })
 export class CartaComponent {
-  id!:number;
-  peli!:any;
+  id!: number;
+  animal!: AnimalI;
   constructor(private servicio:ServiceService, private activatedRoute:ActivatedRoute, private router:Router){}
 
   ngOnInit(): void{
@@ -17,18 +18,18 @@ export class CartaComponent {
       this.id= Number(params.get("id"))
     })
     this.servicio.getAnimal(this.id).subscribe((data:any)=>{
-      this.peli= data;
+      this.animal= data;
     });
   }
 
-  deletePeli(): void{
+  deleteAnimal(): void{
     this.servicio.deleteAnimal(this.id).subscribe((data:any)=>{
-      alert("Pelicula eliminada")
+      alert("animal eliminada")
       this.router.navigate(["lista"])
     })
   }
-  editItem(pelicula:any){
-    this.servicio.editAnimal(pelicula);
+  editItem(animal:any){
+    this.servicio.editAnimal(animal);
     this.router.navigate(["gestion"])
 
   }

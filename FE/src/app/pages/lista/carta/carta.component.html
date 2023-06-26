@@ -1,16 +1,17 @@
 <div class="card">
     <div class="imagen_card">
-        <img src="{{peli?.thumbnail}}" alt="{{peli?.title}}">
+        <img src="{{animal.image}}" alt="{{animal.name}}">
     </div>
     <div class="text_card">
-        <h4>{{peli?.title}}, {{peli?.year}}</h4>
-        <h5>{{peli?.genres}}</h5>
-        <p><b>Synopsis: </b><br>{{peli?.extract}}</p>
+        <h4>{{animal.name}}, ({{animal.species}})</h4>
+        <p><b>Continent </b><br>{{animal.continent}}</p>
+        <p><b>Eats </b><br>{{animal.food}}</p>
+        <p><b>Size </b><br>{{animal.size}}</p>
+        <p><b>Habitats </b><br>{{animal.habitat}}</p>
        
-        <h5>Cast: <br>{{peli?.cast}}</h5>
         <div class="buttons_card">
-            <button (click)="deletePeli()">Eliminar</button>
-            <button (click)="editItem(peli)">Editar</button>
+            <button (click)="deleteAnimal()">Eliminar</button>
+            <button (click)="editItem(animal)">Editar</button>
             <button routerLink="/lista">Atrás</button>
         </div>
     </div>  

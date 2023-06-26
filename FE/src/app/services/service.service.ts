@@ -1,41 +1,35 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { AnimalI } from "../model/animal.model";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ServiceService {
-  db_url: string= "http://localhost:3000/peliculas";
-  public peliData ={
-    title:"",
-    year:"",
-    thumbnail:"",
-    id:""
-
-  }
-
+  db_url: string= "http://localhost:3000/animals";
+  animalData!: AnimalI;
 
   constructor(private http:HttpClient) {}
   getLista(){
     return this.http.get(this.db_url)
   }
-  getPeli(id:number){
+  getAnimal(id:number){
     return this.http.get(`${this.db_url}/${id}`)
   }
 
-  deletePeli(id:number){
+  deleteAnimal(id:number){
     return this.http.delete(`${this.db_url}/${id}`)
   }
 
-  postPeli(pelicula:any){
-    return this.http.post(this.db_url,pelicula)
+  postAnimal(animal: AnimalI){
+    return this.http.post(this.db_url,animal)
   }
 
-  editPeli(pelicula:any){
-    this.peliData=pelicula;
+  editAnimal(animal: AnimalI){
+    this.animalData=animal;
   }
 
-  putPeli(peliId:any,editedPelicula:any){
-    return this.http.put(`${this.db_url}/${peliId}`, editedPelicula)
+  putAnimal(animalId:any,editedAnimal: AnimalI){
+    return this.http.put(`${this.db_url}/${animalId}`, editedAnimal)
   }
 }

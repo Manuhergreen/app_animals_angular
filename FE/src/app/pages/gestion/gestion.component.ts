@@ -12,30 +12,28 @@ export class GestionComponent {
 
   constructor(private formBuilder: FormBuilder, private servicio: ServiceService, private router:Router ){}
 
-  public newpeli = this.servicio.peliData;
-  public peliId = this.servicio.peliData.id;
+  public newAnimal = this.servicio.animalData;
+  public animalId = this.servicio.animalData.id;
 
   ngOnInit():void{
     this.moviesForm = this.formBuilder.group({
-      title:[this.newpeli.title,[Validators.required]
+      name:[this.newAnimal.name,[Validators.required]
       ],
-      thumbnail:[this.newpeli.thumbnail,[Validators.required]
+      species:[this.newAnimal.species,[Validators.required]
       ],
-      year:[this.newpeli.year,[Validators.required]
+      image:[this.newAnimal.image,[Validators.required]
       ]
-
-
 
     });
 
     this.moviesForm.valueChanges.subscribe((changes)=>{
-      this.newpeli= changes;
+      this.newAnimal= changes;
     })
   }
 
   onSubmit(){
-    if (this.peliId !== "") {
-      this.servicio.putPeli(this.peliId, this.newpeli).subscribe((data)=>{
+    if (this.animalId!) {
+      this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
         console.log(data);
         
       alert("Pelicula editada");
@@ -44,7 +42,7 @@ export class GestionComponent {
       })
       
     } else{
-      this.servicio.postPeli(this.newpeli).subscribe();
+      this.servicio.postAnimal(this.newAnimal).subscribe();
       alert ("Pelicula creada")
       this.router.navigate(["lista"])
 

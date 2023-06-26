@@ -12,7 +12,6 @@ import { HomeComponent } from './pages/home/home.component';
 import { ListaComponent } from './pages/lista/lista.component';
 import { GestionComponent } from './pages/gestion/gestion.component';
 import { CartaComponent } from './pages/lista/carta/carta.component';
-import { EjemploComponent } from './pages/ejemplo/ejemplo.component';
 
 
 @NgModule({
@@ -23,8 +22,7 @@ import { EjemploComponent } from './pages/ejemplo/ejemplo.component';
     HomeComponent,
     ListaComponent,
     GestionComponent,
-    CartaComponent,
-    EjemploComponent
+    CartaComponent
   ],
   imports: [
     BrowserModule,

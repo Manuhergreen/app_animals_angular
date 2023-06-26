@@ -1,14 +1,14 @@
 <div class="lista_componente">
     <div class="buscador">
-        <h3>Busca tu pelicula</h3>
+        <h3>Busca tu animal</h3>
         <input type='text' #filtro (input)="filtrar(filtro.value)" placeholder="Buscador">
     </div>
 
     <ul class="cards">
-        <li *ngFor="let peli of filteredList">
-            <img routerLink="/lista/{{peli.id}}" src='{{peli.thumbnail}}' alt='{{peli.title}}'>
-            <h4>{{peli.title | slice:0:15}}</h4>
-            <button routerLink="/lista/{{peli.id}}">Ver mas...</button>
+        <li *ngFor="let animal of filteredList">
+            <img routerLink="/lista/{{animal.id}}" src='{{animal.image}}' alt='{{animal.name}}'>
+            <h4>{{animal.name }}</h4>
+            <button routerLink="/lista/{{animal.id}}">Ver mas...</button>
 
         </li>
     </ul>

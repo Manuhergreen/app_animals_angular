@@ -16,19 +16,19 @@ export class CartaComponent {
     this.activatedRoute.paramMap.subscribe(params=> {
       this.id= Number(params.get("id"))
     })
-    this.servicio.getPeli(this.id).subscribe((data:any)=>{
+    this.servicio.getAnimal(this.id).subscribe((data:any)=>{
       this.peli= data;
     });
   }
 
   deletePeli(): void{
-    this.servicio.deletePeli(this.id).subscribe((data:any)=>{
+    this.servicio.deleteAnimal(this.id).subscribe((data:any)=>{
       alert("Pelicula eliminada")
       this.router.navigate(["lista"])
     })
   }
   editItem(pelicula:any){
-    this.servicio.editPeli(pelicula);
+    this.servicio.editAnimal(pelicula);
     this.router.navigate(["gestion"])
 
   }

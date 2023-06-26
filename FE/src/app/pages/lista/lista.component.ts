@@ -7,17 +7,17 @@ import { ServiceService } from 'src/app/services/service.service';
   styleUrls: ['./lista.component.scss']
 })
 export class ListaComponent {
-  pelisList: any[]=[];
+  animalsList: any[]=[];
   filteredList: any[]=[];
   constructor(private servicio:ServiceService){}
   filtrar(filtro:any){
     const filtroMinusculas = filtro.toLowerCase()
-    this.filteredList = this.pelisList.filter((pelicula)=>pelicula.title.toLowerCase().includes(filtroMinusculas))
+    this.filteredList = this.animalsList.filter((animal)=>animal.name.toLowerCase().includes(filtroMinusculas))
   }
 
   ngOnInit(): void {
     this.servicio.getLista().subscribe((data:any)=>{
-      this.pelisList= [...data];
+      this.animalsList= [...data];
       this.filteredList=[...data]
       
     })

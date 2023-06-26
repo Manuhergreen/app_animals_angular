@@ -1,0 +1,144 @@
+{
+  "animals": [
+    {
+      "id": 1,
+      "name": "Lion",
+      "species": "Panthera leo",
+      "continent": "Africa",
+      "image": "lion.jpg",
+      "size": "Large",
+      "food": ["Meat", "Gazelles", "Buffaloes"],
+      "habitat": ["Grasslands", "Savannah", "Woodlands"]
+    },
+    {
+      "id": 2,
+      "name": "Tiger",
+      "species": "Panthera tigris",
+      "continent": "Asia",
+      "image": "tiger.jpg",
+      "size": "Large",
+      "food": ["Meat", "Deer", "Wild pigs"],
+      "habitat": ["Forests", "Grasslands", "Swamps"]
+    },
+    {
+      "id": 3,
+      "name": "Giraffe",
+      "species": "Giraffa camelopardalis",
+      "continent": "Africa",
+      "image": "giraffe.jpg",
+      "size": "Tall",
+      "food": ["Leaves", "Vegetation", "Bark"],
+      "habitat": ["Grasslands", "Savannah", "Woodlands"]
+    },
+    {
+      "id": 4,
+      "name": "Polar Bear",
+      "species": "Ursus maritimus",
+      "continent": "Arctic",
+      "image": "polar_bear.jpg",
+      "size": "Large",
+      "food": ["Seals", "Fish", "Walruses"],
+      "habitat": ["Arctic Region", "Sea Ice", "Coastal Areas"]
+    },
+    {
+      "id": 5,
+      "name": "Kangaroo",
+      "species": "Macropus",
+      "continent": "Australia",
+      "image": "kangaroo.jpg",
+      "size": "Medium",
+      "food": ["Grass", "Plants", "Fruits"],
+      "habitat": ["Grasslands", "Forests", "Deserts"]
+    },
+    {
+      "id": 6,
+      "name": "Elephant",
+      "species": "Loxodonta",
+      "continent": "Africa",
+      "image": "elephant.jpg",
+      "size": "Large",
+      "food": ["Grass", "Leaves", "Bark", "Fruits"],
+      "habitat": ["Forests", "Savannah", "Swamps"]
+    },
+    {
+      "id": 7,
+      "name": "Penguin",
+      "species": "Spheniscidae",
+      "continent": "Antarctica",
+      "image": "penguin.jpg",
+      "size": "Small",
+      "food": ["Fish", "Squid", "Krill"],
+      "habitat": ["Antarctic Region", "Coastal Areas", "Icebergs"]
+    },
+    {
+      "id": 8,
+      "name": "Gorilla",
+      "species": "Gorilla beringei",
+      "continent": "Africa",
+      "image": "gorilla.jpg",
+      "size": "Large",
+      "food": ["Leaves", "Fruits", "Insects"],
+      "habitat": ["Forests", "Mountains", "Swamps"]
+    },
+    {
+      "id": 9,
+      "name": "Cheetah",
+      "species": "Acinonyx jubatus",
+      "continent": "Africa",
+      "image": "cheetah.jpg",
+      "size": "Medium",
+      "food": ["Antelopes", "Gazelles", "Hares"],
+      "habitat": ["Grasslands", "Savannah", "Deserts"]
+    },
+    {
+      "id": 10,
+      "name": "Koala",
+      "species": "Phascolarctos cinereus",
+      "continent": "Australia",
+      "image": "koala.jpg",
+      "size": "Small",
+      "food": ["Eucalyptus leaves", "Bark", "Gum"],
+      "habitat": ["Eucalyptus Forests", "Coastal Areas", "Woodlands"]
+    },
+    {
+      "id": 11,
+      "name": "Jaguar",
+      "species": "Panthera onca",
+      "continent": "South America",
+      "image": "jaguar.jpg",
+      "size": "Large",
+      "food": ["Deer", "Tapirs", "Capybaras"],
+      "habitat": ["Rainforests", "Grasslands", "Swamps"]
+    },
+    {
+      "id": 12,
+      "name": "Panda",
+      "species": "Ailuropoda melanoleuca",
+      "continent": "Asia",
+      "image": "panda.jpg",
+      "size": "Medium",
+      "food": ["Bamboo", "Fruits"],
+      "habitat": ["Bamboo Forests", "Mountains", "Woodlands"]
+    },
+    {
+      "id": 13,
+      "name": "Toucan",
+      "species": "Ramphastidae",
+      "continent": "South America",
+      "image": "toucan.jpg",
+      "size": "Small",
+      "food": ["Fruits", "Insects", "Lizards"],
+      "habitat": ["Rainforests", "Swamps", "Woodlands"]
+    },
+    {
+      "id": 14,
+      "name": "Sloth",
+      "species": "Bradypus",
+      "continent": "South America",
+      "image": "sloth.jpg",
+      "size": "Medium",
+      "food": ["Leaves", "Buds", "Twigs"],
+      "habitat": ["Rainforests", "Trees", "Vine-Covered Areas"]
+    }
+  ]
+}

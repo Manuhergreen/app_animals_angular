@@ -1,49 +1,68 @@
 .gestion {
-   margin: 50px;
-   align-items: center;
-   text-align: center;
+  align-items: center;
+  text-align: center;
+  //background-color: #336633; 
+  color: #ffffff;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://img.freepik.com/premium-photo/tropical-leaves-green-background_705804-2084.jpg?w=1380);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px); 
+    z-index: -2;
   }
-
-.form-container form input{
-    margin: 25px;
-    gap: 25px;
-    border-radius: 5px;
-    border: 1px solid;
-
 }
 
-.form-container form button{
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid red;
-    cursor: pointer;
-
+.gestion h2 {
+  color: #fcfbfb;
 }
+
+.form-container form input {
+  margin: 25px;
+  gap: 25px;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 10px 20px;
+}
+
+.form-container form button {
+  background-color: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: white;
+  cursor: pointer;
+}
+
 .form-container form button:hover {
-    background-color: white;
-    color: red;
-    border: 1px solid red;
-  }
-  
-
-
-.movie-figure img{
-    width: 150px;
+  background-color: white;
+  color: #017711;
+  border: 1px solid rgb(255, 255, 255);
 }
 
-.buttons_gestion button{
-    margin: 15px;
-    background-color: red;
-    color: white;
-    border-radius: 5px;
-    border: 1px solid red;
-    cursor: pointer;
-  }
+.movie-figure img {
+  width: 150px;
+}
 
-  .buttons_gestion button:hover {
-    background-color: white;
-    color: red;
-    border: 1px solid red;
-  }
-  
+.buttons_gestion button {
+  margin: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border: 1px solid red;
+  cursor: pointer;
+}
+
+.buttons_gestion button:hover {
+  background-color: white;
+  color: red;
+  border: 1px solid red;
+}

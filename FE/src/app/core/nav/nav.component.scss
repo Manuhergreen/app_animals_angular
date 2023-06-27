@@ -8,7 +8,7 @@ nav{
     align-content: space-around;
     
     
-    
+
 }
 
 nav img{
@@ -46,5 +46,23 @@ button{
     padding-right: 20px;
     
 }
+
+button {
+    background-color: none;
+    color: rgb(1, 177, 31);
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    color: #336633;
+  }
+  
+  button.clicked {
+    background-color: #ffffff;
+    color: #006600;
+  }
 
 

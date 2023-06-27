@@ -29,12 +29,6 @@
       "habitat": []
     },
     {
-      "name": "Girafa",
-      "species": "Giraffa camelopardalis",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
-      "id": 3
-    },
-    {
       "id": 40,
       "name": "Polar Bear",
       "species": "Ursus maritimus",
@@ -296,9 +290,6 @@
       "email": "lola@lola.com",
       "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
       "id": 1
-    },
-    {
-      "id": 2
     },
     {
       "email": "hola@hola.com",

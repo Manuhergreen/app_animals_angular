@@ -1,7 +1,8 @@
 
 <div class="gestion">
   <div>
-    <h2> Add / Edit</h2>
+    <h2 *ngIf="animalId">Edit this animal</h2>
+    <h2 *ngIf="!animalId">Add an animal</h2>
   </div>
   <div class="form-container">
     <form [formGroup]="animalForm" (ngSubmit)="onSubmit()">

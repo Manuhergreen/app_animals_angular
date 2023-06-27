@@ -19,76 +19,38 @@
       ]
     },
     {
-      "id": 2,
       "name": "Tiger",
       "species": "Panthera tigris",
       "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
-      "size": "Large",
-      "food": [
-        "Meat",
-        "Deer",
-        "Wild pigs"
-      ],
-      "habitat": [
-        "Forests",
-        "Grasslands",
-        "Swamps"
-      ]
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Giraffe",
+      "name": "Girafa",
       "species": "Giraffa camelopardalis",
-      "continent": "Africa",
       "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
-      "size": "Tall",
-      "food": [
-        "Leaves",
-        "Vegetation",
-        "Bark"
-      ],
-      "habitat": [
-        "Grasslands",
-        "Savannah",
-        "Woodlands"
-      ]
+      "id": 3
     },
     {
-      "id": 4,
       "name": "Polar Bear",
       "species": "Ursus maritimus",
-      "continent": "Arctic",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
+      "continent": "Antarctica",
+      "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
       "size": "Large",
       "food": [
-        "Seals",
         "Fish",
-        "Walruses"
+        "Squid",
+        "Krill"
       ],
       "habitat": [
-        "Arctic Region",
-        "Sea Ice",
-        "Coastal Areas"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Kangaroo",
-      "species": "Macropus",
-      "continent": "Australia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
-      "size": "Medium",
-      "food": [
-        "Grass",
-        "Plants",
-        "Fruits"
+        "Antarctic Region",
+        "Coastal Areas",
+        "Icebergs"
       ],
-      "habitat": [
-        "Grasslands",
-        "Forests",
-        "Deserts"
-      ]
+      "id": 4
     },
     {
       "id": 6,
@@ -261,6 +223,16 @@
       "food": [],
       "habitat": [],
       "id": 15
+    },
+    {
+      "name": "Lince iberico",
+      "species": "Lynx canadensis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lynx_lynx2.jpg/320px-Lynx_lynx2.jpg",
+      "continent": "Europe",
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 16
     }
   ],
   "users": [
@@ -268,14 +240,6 @@
       "email": "lola@lola.com",
       "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
       "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "email": "hola@hola.com",
-      "password": "Hola12345!",
-      "id": 3
     },
     {
       "email": "hola2@hola.com",
@@ -295,17 +259,12 @@
     {
       "email": "natalia@nato.com",
       "password": "$2a$10$Jkup2Rk2oRR5IURgFWONP.EQc72O5PA0RctMqrkbYKaTSs7fEN7VW",
-      "id": 7
+      "id": 9
     },
     {
       "email": "natoo@nato.com",
       "password": "$2a$10$6.Hz9nSLCdzeSNOLywflqOtjRN9XEhf31on/r2yH/7XrpcoF33rbe",
-      "id": 8
-    },
-    {
-      "email": "hola4@hola.com",
-      "password": "$2a$10$sLIvfWLdDqrVtjZJ6mL4Xej3eya8NTv9axQQTHII3cYZSV3y4D2Nu",
-      "id": 9
+      "id": 10
     }
   ]
 }

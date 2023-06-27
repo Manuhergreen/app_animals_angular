@@ -22,23 +22,8 @@
       "id": 2,
       "name": "Tiger",
       "species": "Panthera tigris",
+      "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
-      "continent": "Africa",
-      "size": "",
-      "food": [],
-      "habitat": []
-      
-    },
-    {
-      "name": "Girafa",
-      "species": "Giraffa camelopardalis",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
-      "id": 3
-    },
-    {
-      "name": "Polar Bear",
-      "species": "Ursus maritimus",
-      "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
       "size": "Large",
       "food": [
         "Meat",
@@ -70,40 +55,22 @@
       ]
     },
     {
-      "id": 4,
       "name": "Polar Bear",
       "species": "Ursus maritimus",
-      "continent": "Arctic",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
+      "continent": "Antarctica",
+      "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
       "size": "Large",
       "food": [
-        "Seals",
         "Fish",
-        "Walruses"
+        "Squid",
+        "Krill"
       ],
       "habitat": [
-        "Arctic Region",
-        "Sea Ice",
-        "Coastal Areas"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Kangaroo",
-      "species": "Macropus",
-      "continent": "Australia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
-      "size": "Medium",
-      "food": [
-        "Grass",
-        "Plants",
-        "Fruits"
+        "Antarctic Region",
+        "Coastal Areas",
+        "Icebergs"
       ],
-      "habitat": [
-        "Grasslands",
-        "Forests",
-        "Deserts"
-      ]
+      "id": 4
     },
     {
       "id": 6,
@@ -215,14 +182,21 @@
       ]
     },
     {
+      "id": 12,
       "name": "Panda",
       "species": "Ailuropoda melanoleuca",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
       "continent": "Asia",
-      "size": "",
-      "food": [],
-      "habitat": [],
-      "id": 12
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
+      "size": "Medium",
+      "food": [
+        "Bamboo",
+        "Fruits"
+      ],
+      "habitat": [
+        "Bamboo Forests",
+        "Mountains",
+        "Woodlands"
+      ]
     },
     {
       "id": 13,
@@ -261,20 +235,20 @@
       ]
     },
     {
-      "name": "Ballena jorobada",
-      "species": "Cetáceo misticeto",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/500px-Humpback_Whale_underwater_shot.jpg",
-      "continent": "America",
+      "name": "mono",
+      "species": "mono",
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/01/15/600179c42848b.r_d.603-326-11060.jpeg",
+      "continent": "africa",
       "size": "",
       "food": [],
       "habitat": [],
       "id": 15
     },
     {
-      "name": "Monkey spider",
-      "species": "Primates",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ateles_fusciceps_Colombia.JPG/440px-Ateles_fusciceps_Colombia.JPG",
-      "continent": "Africa",
+      "name": "Mouse",
+      "species": "Rodent",
+      "image": "data:image/jpeg;base64,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",
+      "continent": "Europe",
       "size": "",
       "food": [],
       "habitat": [],
@@ -286,14 +260,6 @@
       "email": "lola@lola.com",
       "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
       "id": 1
-    },
-    {
-      "id": 2
-    },
-    {
-      "email": "hola@hola.com",
-      "password": "Hola12345!",
-      "id": 3
     },
     {
       "email": "hola2@hola.com",
@@ -323,23 +289,12 @@
     {
       "email": "natalia@nato.com",
       "password": "$2a$10$Jkup2Rk2oRR5IURgFWONP.EQc72O5PA0RctMqrkbYKaTSs7fEN7VW",
-      "id": 7
+      "id": 9
     },
     {
       "email": "natoo@nato.com",
       "password": "$2a$10$6.Hz9nSLCdzeSNOLywflqOtjRN9XEhf31on/r2yH/7XrpcoF33rbe",
       "id": 10
-    },
-    {
-      "email": "maxi@maxi.com",
-      "password": "$2a$10$TsgAmhn3l9Inas.weEl8ruEpAZP9eEsSMMuMAIg5Kc2Y8Q7AsQ5sa",
-      "id": 11
-      
-    },
-    {
-      "email": "hola4@hola.com",
-      "password": "$2a$10$sLIvfWLdDqrVtjZJ6mL4Xej3eya8NTv9axQQTHII3cYZSV3y4D2Nu",
-      "id": 9
     }
   ]
 }

@@ -33,12 +33,14 @@
 }
 
 .form-container form button {
-  background-color: none;
-  color: white;
-  padding: 10px 20px;
+  text-align: center;
   border-radius: 5px;
-  border: white;
-  cursor: pointer;
+  background-color: green;
+  color: white;
+  margin-bottom: 20px;
+  border-color: green;
+  border-style: none;
+  padding: 10px;
 }
 
 .form-container form button:hover {
@@ -47,13 +49,18 @@
   border: 1px solid rgb(255, 255, 255);
 }
 
-.movie-figure img {
-  width: 150px;
+.animal-figure img {
+  width: 352px;
+  border-radius: 5%;
+  padding-bottom: 14px;
+}
+.animal-figure{
+
+  margin-bottom: 0px;
+
 }
 
-.animal-figure{
-  margin-bottom: 0px;
-}
+
 
 /*.buttons_gestion button {
   margin: 15px;

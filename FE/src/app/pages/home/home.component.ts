@@ -15,14 +15,14 @@ export class HomeComponent {
   constructor(private servicio: ServiceService){}
   ngOnInit():void{
     this.servicio.getLista().subscribe((data:any)=>{
-      console.log(data[0].genres);
+      console.log(data.continent);
       
       this.animalList=[...data]
       // this.dramaList=data.filter((movie: any)=> movie?.genres?.includes('Drama'))
       // console.log(this.dramaList);
       
-      for (const movie of data) {
-        console.log(movie.genres)
+      for (const animal of data) {
+        console.log(animal.continent)
       }
     })
     //codigo nuevo

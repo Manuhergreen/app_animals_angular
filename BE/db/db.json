@@ -330,6 +330,11 @@
       "email": "hola4@hola.com",
       "password": "$2a$10$sLIvfWLdDqrVtjZJ6mL4Xej3eya8NTv9axQQTHII3cYZSV3y4D2Nu",
       "id": 9
+    },
+    {
+      "email": "car@car.com",
+      "password": "$2a$10$OnwrVgvIUqXnhrLI5uaIp.3pBg21zFkSvZhWMb1tvD/hLrqhkNa9S",
+      "id": 15
     }
   ]
 }

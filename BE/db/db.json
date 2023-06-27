@@ -57,7 +57,19 @@
     {
       "name": "Polar Bear",
       "species": "Ursus maritimus",
+      "continent": "Antarctica",
       "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
+      "size": "Large",
+      "food": [
+        "Fish",
+        "Squid",
+        "Krill"
+      ],
+      "habitat": [
+        "Antarctic Region",
+        "Coastal Areas",
+        "Icebergs"
+      ],
       "id": 4
     },
     {
@@ -230,14 +242,6 @@
       "id": 1
     },
     {
-      "id": 2
-    },
-    {
-      "email": "hola@hola.com",
-      "password": "Hola12345!",
-      "id": 3
-    },
-    {
       "email": "hola2@hola.com",
       "password": "$2a$10$v3wXQxtTej5UFXJiLQXQOulpIzZ1uZEdVnZv89iNQQE9Z4dItupoS",
       "id": 4
@@ -253,9 +257,14 @@
       "id": 6
     },
     {
+
       "email": "manuel@manuel.es",
       "password": "$2a$10$vDmQHzz7Y.l7/s.0FTuQ8OYT2P17iosbZDT8jIVfe10v8QXEj9pFW",
-      "id": 7
+      "id": 7},
+
+    { "email": "car@car.com",
+      "password": "$2a$10$uzpbmWmLm3cq9pAgsld.seKVjtoTJGSfEpnBwIwHAiL.eAJiMGrcC"
+      "id": 8
     }
   ]
 }

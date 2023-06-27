@@ -1,8 +1,7 @@
 .gestion {
   align-items: center;
   text-align: center;
-  //background-color: #336633; 
-  color: #ffffff;
+  //color: #ffffff;
   position: relative;
 
   &::before {
@@ -52,7 +51,11 @@
   width: 150px;
 }
 
-.buttons_gestion button {
+.animal-figure{
+  margin-bottom: 0px;
+}
+
+/*.buttons_gestion button {
   margin: 15px;
   background-color: red;
   color: white;
@@ -65,4 +68,4 @@
   background-color: white;
   color: red;
   border: 1px solid red;
-}
+}*/

@@ -1,7 +1,7 @@
 
 <div class="gestion">
   <div>
-    <h2>Agrega un animal</h2>
+    <h2>Select Animal</h2>
   </div>
   <div class="form-container">
     <form [formGroup]="animalForm" (ngSubmit)="onSubmit()">
@@ -9,14 +9,12 @@
       <input formControlName="name" placeholder="name">
       <input formControlName="species" placeholder="species">  
       <input formControlName="continent" placeholder="Continent"> 
-    
       <button type="submit" [disabled]="!animalForm.valid">Submit</button>
     </form>
   </div>
 
   <figure class="animal-figure">
     <img src="{{newAnimal.image}}" alt="{{newAnimal.name}}"> 
-   
     <figcaption>{{newAnimal.name}}</figcaption>
   </figure>
 

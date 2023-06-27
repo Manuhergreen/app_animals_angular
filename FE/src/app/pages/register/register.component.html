@@ -9,5 +9,7 @@
     <p *ngIf="(submitted && registerForm?.get('password')?.hasError('required'))">Este campo es requerido</p>
     <p *ngIf="(submitted && registerForm?.get('password')?.hasError('pattern'))">No cumple el formato de password(1 mayuscula, 1 minuscula, 1 numero y 1 caracter especial)</p>
     <button>Registrar</button>
+    <p *ngIf="errors" >{{errors.error}}</p>
     </form>
+
 </div>

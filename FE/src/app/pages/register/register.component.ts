@@ -14,6 +14,8 @@ export class RegisterComponent {
   
   registerForm!: FormGroup;
   submitted: boolean= false;
+  errors: any;
+
   constructor(private form: FormBuilder, private authApi: ServiceService, private router: Router ){}
 
   ngOnInit(): void {
@@ -22,15 +24,24 @@ export class RegisterComponent {
       password: ["", [Validators.required, Validators.pattern('(?=.*[a-z])(?=.*[0-9])(?=.*[A-Z])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}')]]
   })
   }
+
   onSubmit(){
     console.log(this.registerForm.value);
     this.submitted=true;
+
     if(this.registerForm.valid){
       let user: UserI = this.registerForm.value;
-      this.authApi.register(user).subscribe((data:any)=>{
-        console.log(data)
-        this.router.navigate(['/login']);
-      })
+      this.authApi.register(user).subscribe(
+        (data:any) => {
+          console.log(data)
+          this.router.navigate(['/login']);
+        },
+        (error) => {
+          this.errors = error;
+
+        }
+
+      )
     }
     
   }

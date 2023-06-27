@@ -12,7 +12,9 @@ import { ServiceService } from 'src/app/services/service.service';
 export class LoginComponent {
   loginForm!: FormGroup;
   submitted: boolean= false;
-  constructor(private form: FormBuilder, private authApi: ServiceService, private router: Router ){}
+  errors: any;
+
+  constructor(private form: FormBuilder, private authApi: ServiceService, private router: Router ) { }
 
   ngOnInit(): void {
     this.loginForm = this.form.group({
@@ -25,12 +27,20 @@ export class LoginComponent {
     this.submitted=true;
     if(this.loginForm.valid){
       let user: UserI = this.loginForm.value;
-      this.authApi.login(user).subscribe((data:any)=>{
-        console.log(data)
+      this.authApi.login(user).subscribe(
+
+        (data:any)=>{
+        console.log("response ------->", data)
         localStorage.setItem('token', data.accessToken);
         localStorage.setItem('user',JSON.stringify(data.user))
         this.router.navigate(['/']);
-      })
+        },
+        error => {
+          console.log(error);
+          this.errors = error;
+          
+        }
+      )
     }
     
   }

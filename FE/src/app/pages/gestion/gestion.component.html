@@ -8,10 +8,8 @@
       <input formControlName="image" placeholder="Image URL"> 
       <input formControlName="name" placeholder="name">
       <input formControlName="species" placeholder="species">  
-     
-      
-
-
+      <input formControlName="continent" placeholder="Continent"> 
+    
       <button type="submit" [disabled]="!animalForm.valid">Submit</button>
     </form>
   </div>
@@ -19,8 +17,9 @@
   <figure class="animal-figure">
     <img src="{{newAnimal.image}}" alt="{{newAnimal.name}}"> 
    
-    <figcaption>{{newAnimal.species}}</figcaption>
+    <figcaption>{{newAnimal.name}}</figcaption>
   </figure>
+
   <!-- <div class="buttons_gestion">
     <button routerLink="/">Ir a home</button>
     <button routerLink="/lista">Ir a lista</button>

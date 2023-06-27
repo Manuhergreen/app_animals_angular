@@ -251,6 +251,11 @@
       "email": "manu@manu.es",
       "password": "$2a$10$WSUs16cwtM/bb0MW5Ja8z.iJbyn7epEby6OIfNqO8/YoQixlVj746",
       "id": 6
+    },
+    {
+      "email": "manuel@manuel.es",
+      "password": "$2a$10$vDmQHzz7Y.l7/s.0FTuQ8OYT2P17iosbZDT8jIVfe10v8QXEj9pFW",
+      "id": 7
     }
   ]
 }

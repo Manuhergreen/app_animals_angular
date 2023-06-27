@@ -1,9 +1,13 @@
+<div class="container">
 <form [formGroup]="loginForm"(ngSubmit)="onSubmit()">
+    <label for="email">Introduce your email</label>
     <input type="email" placeholder="email" formControlName="email"/>
     <p *ngIf="(submitted && loginForm?.get('email')?.hasError('required'))">Este campo es requerido</p>
     <p *ngIf="(submitted && loginForm?.get('email')?.hasError('pattern'))">No cumple el formato de email</p>
+    <label for="password">Password</label>
     <input type="password" placeholder="password" formControlName="password" />
     <p *ngIf="(submitted && loginForm?.get('password')?.hasError('required'))">Este campo es requerido</p>
     <p *ngIf="(submitted && loginForm?.get('password')?.hasError('pattern'))">No cumple el formato de password(1 mayuscula, 1 minuscula, 1 numero y 1 caracter especial)</p>
     <button>Login</button>
 </form>
+</div>

@@ -7,7 +7,16 @@ import { AnimalI, UserI } from "../model/animal.model";
 })
 export class ServiceService {
   db_url: string= "http://localhost:3000";
-  animalData!: AnimalI;
+  public animalData: AnimalI = {
+    id: NaN,
+    name: '',
+    species: '',
+    continent: '',
+    image: '',
+    size: '',
+    food:[],  
+    habitat: []
+  }
 
   constructor(private http:HttpClient) {}
 
@@ -39,7 +48,7 @@ export class ServiceService {
   }
 
   postAnimal(animal: AnimalI){
-    return this.http.post(this.db_url,animal)
+    return this.http.post(`${this.db_url}/animals`, animal)
   }
 
   editAnimal(animal: AnimalI){

@@ -22,12 +22,15 @@ export class CartaComponent {
     });
   }
 
-  deleteAnimal(): void{
-    this.servicio.deleteAnimal(this.id).subscribe((data:any)=>{
-      alert("animal eliminada")
-      this.router.navigate(["lista"])
-    })
+  deleteAnimal(): void {
+    if (window.confirm('¿Estás seguro de que quieres eliminar este animal?')) {
+      this.servicio.deleteAnimal(this.id).subscribe((data: any) => {
+        alert('Animal eliminado');
+        this.router.navigate(['lista']);
+      });
+    }
   }
+  
   editItem(animal:any){
     this.servicio.editAnimal(animal);
     this.router.navigate(["gestion"])

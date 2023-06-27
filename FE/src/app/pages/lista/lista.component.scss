@@ -10,21 +10,21 @@ ul {
   box-shadow: rgba(0, 0, 0, 0.822) 10px 10px 20px -10px;
   z-index: 1;
 
-  
-  li {
-    width: calc(33% - 20px);
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    color: rgb(61, 61, 61);
-    padding-bottom: 10px;
-    border-radius: 10px;
-    position: relative;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    transition: transform .3s; /* Animation */
+}
 
-    &:hover {
-        transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-    }
+li {
+  width: calc(33% - 20px);
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(61, 61, 61);
+  padding-bottom: 10px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: transform .3s; /* Animation */
+
+  &:hover {
+      transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
 }
 

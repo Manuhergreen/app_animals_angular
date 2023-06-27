@@ -9,6 +9,7 @@ import { ServiceService } from 'src/app/services/service.service';
 export class ListaComponent {
   animalsList: any[]=[];
   filteredList: any[]=[];
+  isSorted: boolean = false;
 
   isList: boolean = false;
   selectedType: string = "name";
@@ -37,6 +38,21 @@ export class ListaComponent {
         console.log(animal);
         return animal[this.selectedType]?.toLowerCase().includes(filtro.toLowerCase())
       })
+  }
+
+  onClickSort() {
+    if (!this.isSorted) {      
+      this.filteredList = this.animalsList.sort(
+        (p1, p2) => (p1.name < p2.name) ? -1 : (p1.name > p2.name) ? 1 : 0);
+      console.log("sorted -----", this.animalsList);
+      } else {
+        this.filteredList = this.animalsList.sort(
+          (p1, p2) => (p1.id < p2.id) ? -1 : (p1.id > p2.id) ? 1 : 0);
+        console.log("not sorted -----", this.animalsList);
+      }
+    console.log(this.isSorted);
+    
+    this.isSorted = !this.isSorted;
   }
 
   onClickList() {

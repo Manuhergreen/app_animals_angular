@@ -11,6 +11,7 @@ import { AnimalI } from "../../../model/animal.model";
 export class CartaComponent {
   id!: number;
   animal!: AnimalI;
+ 
   constructor(private servicio:ServiceService, private activatedRoute:ActivatedRoute, private router:Router){}
 
   ngOnInit(): void{

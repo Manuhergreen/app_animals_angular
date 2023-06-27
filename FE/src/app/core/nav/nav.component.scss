@@ -1,68 +1,80 @@
 
 nav{
     display: flex;
-    align-items: center;
-    background-color: black;
-    padding-left: 80px;
+    background-color: rgb(27, 85, 52);
     text-align: center;
-    align-content: space-around;
+    padding-right: 10px;
+    justify-content: space-between;
+    align-items: center;
     
+ .first{
+    display: flex;
+    align-items: center;
+ }   
     
-
 }
-
+.login{
+    display: flex;
+}
 nav img{
-    width: 90px;
-    padding-bottom: 20px;
+    width: 125px;
     cursor: pointer;
     padding-top:20px ;
 }
 
-nav a {
-    color: white;
+a {
     text-decoration: none;
-    text-align: center;
-    margin-left: 20px;
-    align-items: center;
-    font-size: 25px;
-    padding-left: 50px;
-}
-
-nav a:hover{
-    color: green;
-}
-button{
-    text-align: center;
-    border-radius: 5px;
-    background-color: green;
-    color: white;
-    margin-bottom: 20px;
-    border-color: green;
-    border-style: none;
-    padding: 10px; 
-    margin-top: 30px;
-    margin-left: 250px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
-}
-
-button {
-    background-color: none;
-    color: rgb(1, 177, 31);
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: white;
-    cursor: pointer;
+    margin-left: 10px;
+    --width: 150px;
+    --timing: 2s;
+    border: 0;
+    width: var(--width);
+    padding-block: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: rgb(64, 192, 87);
+    transition: all 0.2s;
+    border-radius: 3px;
   }
   
-  button:hover {
-    color: #ffffff;
+  a:hover {
+    background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+    animation: var(--timing) linear dance6123 infinite;
+    transform: scale(1.1) translateY(-1px);
   }
   
-  button.clicked {
-    background-color: #ffffff;
-    color: #006600;
+  @keyframes dance6123 {
+    to {
+      background-position: var(--width);
+    }
   }
+
+.button{
+    margin-left: 10px;
+    --width: 150px;
+    --timing: 2s;
+    border: 0;
+    width: var(--width);
+    padding-block: 1em;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    background: rgb(64, 192, 87);
+    transition: all 0.2s;
+    border-radius: 3px;
+}
+      
+      .button:hover {
+        background-image: linear-gradient(to right, rgb(250, 82, 82), rgb(250, 82, 82) 16.65%, rgb(190, 75, 219) 16.65%, rgb(190, 75, 219) 33.3%, rgb(76, 110, 245) 33.3%, rgb(76, 110, 245) 49.95%, rgb(64, 192, 87) 49.95%, rgb(64, 192, 87) 66.6%, rgb(250, 176, 5) 66.6%, rgb(250, 176, 5) 83.25%, rgb(253, 126, 20) 83.25%, rgb(253, 126, 20) 100%, rgb(250, 82, 82) 100%);
+        animation: var(--timing) linear dance6123 infinite;
+        transform: scale(1.1) translateY(-1px);
+      }
+      
+      @keyframes dance6123 {
+        to {
+          background-position: var(--width);
+        }
+      }
 
 

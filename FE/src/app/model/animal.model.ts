@@ -6,7 +6,7 @@ export interface AnimalI {
     image: string,
     size: string,
     food: string[],  
-    habitat: string[],  
+    habitat: string[]
 }
 
 export interface UserI{

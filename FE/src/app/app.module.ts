@@ -14,7 +14,6 @@ import { CartaComponent } from './pages/lista/carta/carta.component';
 import { LoginComponent } from './pages/login/login.component';
 import { PrivateComponent } from './pages/private/private.component';
 import { RegisterComponent } from './pages/register/register.component';
-
 import {MatIconModule} from '@angular/material/icon';
 import {MatSelectModule} from '@angular/material/select';
 import { MatFormFieldModule } from '@angular/material/form-field';

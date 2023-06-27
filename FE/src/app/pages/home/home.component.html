@@ -39,7 +39,7 @@
   </div>
       <div class="carousel" *ngFor="let animal of animalList">
         <div class="pelicula" *ngIf="animal?.continent.includes('Asia')">
-          <a routerLink="/lista/{{animal.id}}"><img src="{{ animal.image }}" alt="{{ animal.name }}"></a>
+          <a ><img src="{{ animal.image }}" alt="{{ animal.name }}"></a>
         </div>
       </div>  
 </div>

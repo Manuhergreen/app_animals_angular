@@ -10,8 +10,7 @@ import { ServiceService } from 'src/app/services/service.service';
 })
 export class GestionComponent {
   animalForm!:FormGroup;
-
-  animalData!: AnimalI
+  animalData!: AnimalI;
 
   constructor(private formBuilder: FormBuilder, private servicio: ServiceService, private router:Router ){}
 
@@ -21,6 +20,7 @@ export class GestionComponent {
 
 
   ngOnInit():void{
+    
     this.animalForm = this.formBuilder.group({
       name:[this.newAnimal.name,[Validators.required]
       ],
@@ -44,31 +44,24 @@ export class GestionComponent {
     })
   }
 
-  onSubmit(){
-    if (window.confirm('¿Estás seguro de que quieres modificar este animal?')) {
-      this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
-        console.log(data);
-        
-     alert("Animal editado");
-     this.router.navigate(["lista"]);
-
-     })
-      
-    } else{
-      console.log(this.newAnimal)
-
-
-      this.servicio.postAnimal(this.newAnimal).subscribe();
-      alert ("Animal creado")
-      this.router.navigate(["lista"])
-      this.animalForm.reset()
-
-    }
-
-
+  onSubmit() {
     
-    this.animalForm.reset()
-
+    if (this.animalId!) {
+      const confirmResult = window.confirm('¿Estás seguro de que quieres modificar este animal?');
+      if (confirmResult) {
+        this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data) => {
+          console.log(data);
+          alert("Animal editado");
+          this.router.navigate(["lista"]);
+        });
+      }
+    } else if (window.confirm('¿Estás seguro de que quieres agregar este animal?')) {
+      console.log(this.newAnimal);
+      this.servicio.postAnimal(this.newAnimal).subscribe();
+      alert("Animal creado");
+      this.router.navigate(["lista"]);
+      
+    }
+    this.animalForm.reset();
   }
-
 }

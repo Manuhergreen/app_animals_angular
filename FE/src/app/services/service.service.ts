@@ -7,6 +7,7 @@ import { AnimalI, UserI } from "../model/animal.model";
 })
 export class ServiceService {
   db_url: string= "http://localhost:3000";
+
   public animalData: AnimalI = {
     id: NaN,
     name: '',
@@ -17,6 +18,8 @@ export class ServiceService {
     food:[],  
     habitat: []
   }
+
+  
 
   constructor(private http:HttpClient) {}
 

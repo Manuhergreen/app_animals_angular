@@ -22,6 +22,10 @@
       "name": "Tiger",
       "species": "Panthera tigris",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
+      "continent": "Africa",
+      "size": "",
+      "food": [],
+      "habitat": [],
       "id": 2
     },
     {
@@ -33,19 +37,11 @@
     {
       "name": "Polar Bear",
       "species": "Ursus maritimus",
-      "continent": "Antarctica",
       "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
-      "size": "Large",
-      "food": [
-        "Fish",
-        "Squid",
-        "Krill"
-      ],
-      "habitat": [
-        "Antarctic Region",
-        "Coastal Areas",
-        "Icebergs"
-      ],
+      "continent": "Antartica",
+      "size": "",
+      "food": [],
+      "habitat": [],
       "id": 4
     },
     {
@@ -158,21 +154,14 @@
       ]
     },
     {
-      "id": 12,
       "name": "Panda",
       "species": "Ailuropoda melanoleuca",
-      "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
-      "size": "Medium",
-      "food": [
-        "Bamboo",
-        "Fruits"
-      ],
-      "habitat": [
-        "Bamboo Forests",
-        "Mountains",
-        "Woodlands"
-      ]
+      "continent": "Asia",
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 12
     },
     {
       "id": 13,
@@ -211,14 +200,24 @@
       ]
     },
     {
-      "name": "mono",
-      "species": "mono",
-      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/01/15/600179c42848b.r_d.603-326-11060.jpeg",
-      "continent": "africa",
+      "name": "Ballena jorobada",
+      "species": "Cetáceo misticeto",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/500px-Humpback_Whale_underwater_shot.jpg",
+      "continent": "America",
       "size": "",
       "food": [],
       "habitat": [],
       "id": 15
+    },
+    {
+      "name": "Monkey spider",
+      "species": "Primates",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ateles_fusciceps_Colombia.JPG/440px-Ateles_fusciceps_Colombia.JPG",
+      "continent": "Africa",
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 16
     }
   ],
   "users": [
@@ -243,16 +242,17 @@
       "id": 6
     },
     {
-
       "email": "manuel@manuel.es",
       "password": "$2a$10$vDmQHzz7Y.l7/s.0FTuQ8OYT2P17iosbZDT8jIVfe10v8QXEj9pFW",
-      "id": 7},
-
-    { "email": "car@car.com",
+      "id": 7
+    },
+    {
+      "email": "car@car.com",
       "password": "$2a$10$uzpbmWmLm3cq9pAgsld.seKVjtoTJGSfEpnBwIwHAiL.eAJiMGrcC",
-      "id": 8},
-
-      {"email": "natalia@nato.com",
+      "id": 8
+    },
+    {
+      "email": "natalia@nato.com",
       "password": "$2a$10$Jkup2Rk2oRR5IURgFWONP.EQc72O5PA0RctMqrkbYKaTSs7fEN7VW",
       "id": 9
     },
@@ -260,6 +260,11 @@
       "email": "natoo@nato.com",
       "password": "$2a$10$6.Hz9nSLCdzeSNOLywflqOtjRN9XEhf31on/r2yH/7XrpcoF33rbe",
       "id": 10
+    },
+    {
+      "email": "maxi@maxi.com",
+      "password": "$2a$10$TsgAmhn3l9Inas.weEl8ruEpAZP9eEsSMMuMAIg5Kc2Y8Q7AsQ5sa",
+      "id": 11
     }
   ]
 }

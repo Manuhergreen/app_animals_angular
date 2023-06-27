@@ -45,9 +45,9 @@ export class GestionComponent {
   }
 
   onSubmit(){
-    if (this.animalId!) {
-     this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
-        //console.log(data);
+    if (window.confirm('¿Estás seguro de que quieres modificar este animal?')) {
+      this.servicio.putAnimal(this.animalId, this.newAnimal).subscribe((data)=>{
+        console.log(data);
         
      alert("Animal editado");
      this.router.navigate(["lista"]);

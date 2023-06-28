@@ -19,85 +19,38 @@
       ]
     },
     {
-      "id": 2,
       "name": "Tiger",
       "species": "Panthera tigris",
+      "continent": "Asia",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Tigress_at_Jim_Corbett_National_Park.jpg/1200px-Tigress_at_Jim_Corbett_National_Park.jpg",
-      "continent": "Africa",
       "size": "",
       "food": [],
-      "habitat": []
+      "habitat": [],
+      "id": 2
     },
     {
-      "id": 40,
+      "name": "Girafa",
+      "species": "Giraffa camelopardalis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
+      "id": 3
+    },
+    {
       "name": "Polar Bear",
       "species": "Ursus maritimus",
+      "continent": "Antarctica",
       "image": "https://www.ngenespanol.com/wp-content/uploads/2023/02/oso-polar-la-iconica-especie-del-artico-que-enfrenta-al-cambio-climatico.jpg",
       "size": "Large",
       "food": [
-        "Meat",
-        "Deer",
-        "Wild pigs"
-      ],
-      "habitat": [
-        "Forests",
-        "Grasslands",
-        "Swamps"
-      ]
-    },
-    {
-      "id": 3,
-      "name": "Giraffe",
-      "species": "Giraffa camelopardalis",
-      "continent": "Africa",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Giraffa_camelopardalis_angolensis.jpg",
-      "size": "Tall",
-      "food": [
-        "Leaves",
-        "Vegetation",
-        "Bark"
-      ],
-      "habitat": [
-        "Grasslands",
-        "Savannah",
-        "Woodlands"
-      ]
-    },
-    {
-      "id": 4,
-      "name": "Polar Bear",
-      "species": "Ursus maritimus",
-      "continent": "Arctic",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Polar_Bear_-_Alaska.jpg",
-      "size": "Large",
-      "food": [
-        "Seals",
         "Fish",
-        "Walruses"
+        "Squid",
+        "Krill"
       ],
       "habitat": [
-        "Arctic Region",
-        "Sea Ice",
-        "Coastal Areas"
-      ]
-    },
-    {
-      "id": 5,
-      "name": "Kangaroo",
-      "species": "Macropus",
-      "continent": "Australia",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Kangaroo_and_joey03.jpg",
-      "size": "Medium",
-      "food": [
-        "Grass",
-        "Plants",
-        "Fruits"
+        "Antarctic Region",
+        "Coastal Areas",
+        "Icebergs"
       ],
-      "habitat": [
-        "Grasslands",
-        "Forests",
-        "Deserts"
-      ]
+      "id": 4
     },
     {
       "id": 6,
@@ -209,14 +162,21 @@
       ]
     },
     {
+      "id": 12,
       "name": "Panda",
       "species": "Ailuropoda melanoleuca",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
       "continent": "Asia",
-      "size": "",
-      "food": [],
-      "habitat": [],
-      "id": 12
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Giant_Panda_2004-03-2.jpg/800px-Giant_Panda_2004-03-2.jpg",
+      "size": "Medium",
+      "food": [
+        "Bamboo",
+        "Fruits"
+      ],
+      "habitat": [
+        "Bamboo Forests",
+        "Mountains",
+        "Woodlands"
+      ]
     },
     {
       "id": 13,
@@ -255,34 +215,54 @@
       ]
     },
     {
-      "name": "Ballena jorobada",
-      "species": "Cetáceo misticeto",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Humpback_Whale_underwater_shot.jpg/500px-Humpback_Whale_underwater_shot.jpg",
-      "continent": "America",
+      "name": "mono",
+      "species": "mono",
+      "image": "https://www.lavanguardia.com/files/og_thumbnail/files/fp/uploads/2021/01/15/600179c42848b.r_d.603-326-11060.jpeg",
+      "continent": "africa",
       "size": "",
       "food": [],
       "habitat": [],
       "id": 15
     },
     {
-      "name": "Monkey spider",
-      "species": "Primates",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Ateles_fusciceps_Colombia.JPG/440px-Ateles_fusciceps_Colombia.JPG",
-      "continent": "Africa",
+      "name": "Lince iberico",
+      "species": "Lynx canadensis",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Lynx_lynx2.jpg/320px-Lynx_lynx2.jpg",
+      "continent": "Europe",
       "size": "",
       "food": [],
       "habitat": [],
       "id": 16
     },
     {
-      "name": "Axoloti",
-      "species": "Anfibio",
-      "image": "https://www.autopista.es/uploads/s1/10/20/18/78/el-simpatico-ajolote-es-uno-de-los-animales-mas-raros-que-existen.jpeg",
-      "continent": "America",
+      "name": "Possum",
+      "species": "marsupial",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/1/10/Opossum_1.jpg",
+      "continent": "Australia and oceania",
       "size": "",
       "food": [],
       "habitat": [],
       "id": 17
+    },
+    {
+      "name": "Kangaroo",
+      "species": "Marsupial",
+      "image": "https://media.gq.com.mx/photos/5df4f0b75b7e8300097bcf49/4:3/w_4208,h_3156,c_limit/canguro2.jpg",
+      "continent": "Australia and oceania",
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 18
+    },
+    {
+      "name": "Huemul",
+      "species": "Cervidae",
+      "image": "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcSI4BSbIFJol5I8DeAeBC-rd2-WuXsZ-aYtXkPTgR-ILGlFwK71wwiLOXKxt1SblTWcW2qDQZiRqKvIWGQ",
+      "continent": "Southamerica (Chile / Argentina)",
+      "size": "",
+      "food": [],
+      "habitat": [],
+      "id": 19
     }
   ],
   "users": [
@@ -290,11 +270,6 @@
       "email": "lola@lola.com",
       "password": "$2a$10$23OWK9zhsTkAe5iHmQBa6.wfs.zHT/fmpNL68RwP0m8CRiUjA.5Ni",
       "id": 1
-    },
-    {
-      "email": "hola@hola.com",
-      "password": "Hola12345!",
-      "id": 3
     },
     {
       "email": "hola2@hola.com",
@@ -314,7 +289,7 @@
     {
       "email": "natalia@nato.com",
       "password": "$2a$10$Jkup2Rk2oRR5IURgFWONP.EQc72O5PA0RctMqrkbYKaTSs7fEN7VW",
-      "id": 7
+      "id": 9
     },
     {
       "email": "natoo@nato.com",
@@ -322,19 +297,9 @@
       "id": 10
     },
     {
-      "email": "maxi@maxi.com",
-      "password": "$2a$10$TsgAmhn3l9Inas.weEl8ruEpAZP9eEsSMMuMAIg5Kc2Y8Q7AsQ5sa",
+      "email": "natmore@gmail.com",
+      "password": "$2a$10$N1T7i8vPRqmitF5R9BqZYO5DpJ.KeHJDTGFpkGimNOgt..hVZSo8W",
       "id": 11
-    },
-    {
-      "email": "hola4@hola.com",
-      "password": "$2a$10$sLIvfWLdDqrVtjZJ6mL4Xej3eya8NTv9axQQTHII3cYZSV3y4D2Nu",
-      "id": 9
-    },
-    {
-      "email": "car@car.com",
-      "password": "$2a$10$OnwrVgvIUqXnhrLI5uaIp.3pBg21zFkSvZhWMb1tvD/hLrqhkNa9S",
-      "id": 15
     }
   ]
 }
